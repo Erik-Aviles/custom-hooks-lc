@@ -1,0 +1,13 @@
+.content-todoApp{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: white;
+    padding: 20px;
+}
+.content-todoApp ul{
+    list-style: none;
+}
+.content-todoApp h2{
+    text-align: center;
+}
