@@ -18,9 +18,15 @@ const TodoApp = () => {
       <h2>Listas de tareas</h2>
       <ul>
         {tareas.map(tarea => (
-           <li key={tarea.id}>
-           Tarea {tareas.lastIndexOf(tarea)+1}: {tarea.title}
-           <button onClick={() => deleteTarea(tarea.id)}> Eliminar </button>
+           <li 
+            className='list-tarea'
+            key={tarea.id}>
+            Tarea {tareas.lastIndexOf(tarea)+1}: {tarea.title}
+            <button 
+              className='list-tarea-delete_button'
+              onClick={() => deleteTarea(tarea.id)}>
+                Eliminar
+            </button>
           </li>
         ))}
       </ul>

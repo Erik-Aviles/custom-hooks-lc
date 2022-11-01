@@ -1,5 +1,6 @@
  import '../styles/App.css';
 import { Counter }from './CounterApp';
+import { MouseApp } from './MouseApp';
 import { TodoApp }from './TodoApp';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
      <h1>App</h1>
      <Counter/>
      <TodoApp/>
+     <MouseApp/>
     </div>
   );
 }
